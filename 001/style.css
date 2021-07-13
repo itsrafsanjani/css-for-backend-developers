@@ -39,3 +39,19 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav > a {
+    padding: 8px 3px;
+  }
+
+  .flex,
+  .row {
+    display: block;
+  }
+}
