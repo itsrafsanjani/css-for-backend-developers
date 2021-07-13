@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+  width: 475px;
+  height: 258px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.card-left,
+.card-right {
+  padding: 20px;
+}
+
+.card-left {
+  background: linear-gradient(to left, #6edcc4, #1aab8b);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card-skill-button {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 9999px;
+  padding: 3px 25px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.7em;
+}
+
+.card-difficulty {
+  font-size: 0.8em;
+}
+
+.card-right {
+  color: #888;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #222;
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-title > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-excerpt {
+  flex: 1;
+}
+
+.card-meta {
+  display: flex;
+  font-size: 0.8em;
+}
+
+.card-meta > div:first-child {
+  margin-right: 1em;
+}
+
+.card-meta > div {
+  display: flex;
+  align-items: center;
+}
+
+.card-meta > div > svg {
+  margin-right: 8px;
+  fill: #888;
+}
