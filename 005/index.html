@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Flexbox Wins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <div class="border-b py-8">
+            <h1 class="mb-6 text-gray-500 font-bold tracking-wide uppercase">Instant navigation</h1>
+            <nav class="flex justify-between bg-blue-100 p-4">
+                <a href="#" class="mr-3">Home</a>
+                <a href="#" class="mr-3">About</a>
+                <a href="#" class="mr-3">Our Mission</a>
+                <a href="#" class="mr-3">Contact</a>
+            </nav>
+        </div>
+
+        <div class="border-b py-8">
+            <h1 class="mb-6 text-gray-500 font-bold tracking-wide uppercase">Split nav</h1>
+            <nav class="bg-blue-100 p-4 flex justify-between">
+                <div>
+                    <a href="#" class="mr-3">Home</a>
+                    <a href="#" class="mr-3">About</a>
+                </div>
+                <div>
+                    <a href="#" class="mr-3">Our Mission</a>
+                    <a href="#" class="mr-3">Contact</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="border-b py-8">
+            <h1 class="mb-6 text-gray-500 font-bold tracking-wide uppercase">Align image with text</h1>
+            <div class="flex items-center">
+                <img src="http://via.placeholder.com/350x150" alt="image" class="mr-4">
+                <div>
+                    <h3 class="mb-3 font-bold">My Trip To...</h3>
+                    <p class="text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        cupiditate atque saepe
+                        laboriosam in sit et ad quia aliquid.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-b py-8">
+            <h1 class="mb-6 text-gray-500 font-bold tracking-wide uppercase">Perfectly centered text</h1>
+            <div class="h-64 w-3/4 bg-gray-300 p-6 flex items-center justify-center">
+                <div class="w-64">
+                    <h3 class="mb-3 text-lg text-black font-bold">Flexbox is Amazing</h3>
+                    <p class="text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        cupiditate atque saepe
+                        laboriosam in sit et ad quia aliquid.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-b py-8">
+            <h1 class="mb-6 text-gray-500 font-bold tracking-wide uppercase">Sticky footer</h1>
+            <a href="sticky-footer.html"
+                class="bg-blue-400 px-8 py-3 text-white uppercase hover:bg-blue-500 transition rounded">Click
+                Me</a>
+        </div>
+</body>
+
+</html>
