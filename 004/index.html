@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design Using Tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex justify-center items-center">
+    <div class="card flex rounded">
+        <!-- card left -->
+        <div class="card-left p-7 text-center flex flex-col justify-between items-center text-white rounded">
+            <a href="#"
+                class="bg-black bg-opacity-40 rounded-full py-0.5 px-6 no-underline text-xs mb-4 md:mb-0">PHP</a>
+
+            <img src="./img/testing-jargon.png" alt="testing jargon" width="110" class="mb-4 md:mb-0">
+
+            <span class="text-base md:text-xs">Intermediate Difficulty</span>
+        </div>
+
+        <!-- card right -->
+        <div class="p-5 flex flex-col text-gray-500">
+            <h3 class="text-black text-3xl font-medium mb-2">
+                <a href="#" class="no-underline">Testing Jargon</a>
+            </h3>
+
+            <p class="flex-1 mb-3">
+                There's no two ways about it: terminology in the testing world is incredibly
+                overwhelming. Mocks, stubs,
+                and dummies oh my! Let's see if we can cut through the noise.
+            </p>
+
+            <div class="flex text-xs">
+                <div class="flex items-center mr-3">
+                    <svg class="mr-3 fill-current text-gray-500" width="13" height="16" viewBox="0 0 13 16">
+                        <path fill-rule="nonzero"
+                            d="M4.129 6.866v5.888a.614.614 0 0 1-.395.58 3.442 3.442 0 0 1-1.167.188c-1.236 0-2.564-.529-2.564-1.69V4.3c-.028-.517.145-1.431.976-1.926.386-.23 2.412-1.588 3.43-2.274A.571.571 0 0 1 5.01.075c.19.108.309.316.309.541v.892c0 .34-.265.616-.591.616a.592.592 0 0 1-.554-.402c-.92.616-2.273 1.52-2.61 1.72-.302.18-.368.512-.38.692 0 .202.041.361.117.448.21.238.909.09 1.671-.388.733-.458 4.346-2.966 4.382-2.992a.568.568 0 0 1 .606-.03.62.62 0 0 1 .313.544v.07a.625.625 0 0 1-.263.512s-2.508 1.746-2.73 1.895c-.85.57-1.152 1.27-1.152 2.673zM13 3.893v7.997a.623.623 0 0 1-.276.521s-3.445 2.79-4.144 3.232c-.367.234-.835.357-1.352.357-1.228 0-2.499-.693-2.499-1.852V6.505l.002-.009c.012-.45.113-1.094.917-1.713C6.13 4.413 9 2.371 9.123 2.285a.572.572 0 0 1 .608-.036.62.62 0 0 1 .315.545v.892c0 .34-.264.616-.59.616a.59.59 0 0 1-.544-.375 191.5 191.5 0 0 0-2.563 1.847c-.38.294-.431.487-.438.735.001.184.05.325.146.417.301.288 1.113.167 1.912-.333.592-.37 3.143-2.424 4.076-3.185a.574.574 0 0 1 .623-.067.616.616 0 0 1 .332.552zm-1.182 2.745l-2.953 2.39v1.232l2.953-2.39V6.638z">
+                        </path>
+                    </svg>
+                    5 Lessons
+                </div>
+
+                <div class="flex items-center">
+                    <svg class="mr-3 fill-current text-gray-500" width="13" height="13" viewBox="0 0 13 13">
+                        <path fill-rule="evenodd"
+                            d="M6.5 0C2.925 0 0 2.925 0 6.5S2.925 13 6.5 13 13 10.075 13 6.5 10.075 0 6.5 0zm2.967 9L6 6.913V3h1v3.391l3 1.761L9.467 9z">
+                        </path>
+                    </svg>
+                    53:10min
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
